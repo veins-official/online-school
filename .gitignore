@@ -1,0 +1,156 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Flutter / Dart
+# ─────────────────────────────────────────────────────────────────────────────
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+coverage/
+lcov.info
+
+# ─────────────────────────────────────────────────────────────────────────────
+# IDE / редакторы
+# ─────────────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.atom/
+.history/
+*.swp
+*.swo
+*~
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Android
+# ─────────────────────────────────────────────────────────────────────────────
+android/.gradle/
+android/.idea/
+android/captures/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/key.properties
+android/*.jks
+android/*.keystore
+android/app/upload-keystore.jks
+android/gradle/wrapper/gradle-wrapper.jar
+.gradle/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# iOS / macOS
+# ─────────────────────────────────────────────────────────────────────────────
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Runner/GeneratedPluginRegistrant.*
+ios/*.xcworkspace/xcuserdata/
+ios/*.xcodeproj/xcuserdata/
+ios/*.mobileprovision
+ios/*.cer
+ios/*.p12
+macos/Pods/
+macos/Flutter/ephemeral/
+**/xcuserdata/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Web
+# ─────────────────────────────────────────────────────────────────────────────
+web/favicon.png.bak
+.dart_tool/web/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Windows / Linux desktop
+# ─────────────────────────────────────────────────────────────────────────────
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# PocketBase (backend)
+# ─────────────────────────────────────────────────────────────────────────────
+pocketbase/pb_data/
+pocketbase/pb_migrations/*.js
+!pocketbase/pb_migrations/.gitkeep
+pocketbase/pocketbase
+pocketbase/*.db
+pocketbase/*.db-shm
+pocketbase/*.db-wal
+pocketbase/pb_hooks/secrets.js
+pocketbase/.env
+
+# Если PocketBase живёт в отдельной папке сервера
+server/pb_data/
+server/*.db
+server/*.db-shm
+server/*.db-wal
+server/pocketbase
+server/.env
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Секреты и ключи (LiveKit, JWT, S3, FCM и т.п.)
+# ─────────────────────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+*.jks
+*.keystore
+livekit.yaml
+livekit.local.yaml
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Логи и временные файлы
+# ─────────────────────────────────────────────────────────────────────────────
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Записи видеоконференций (не коммитим медиа!)
+# ─────────────────────────────────────────────────────────────────────────────
+recordings/
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.m4a
+*.wav
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CI/CD артефакты
+# ─────────────────────────────────────────────────────────────────────────────
+*.apk
+*.aab
+*.ipa
+*.app
+*.dmg
+*.exe
+*.msi
+dist/
+artifacts/
